@@ -32,11 +32,6 @@
                 "foregroundImage": "./assets/adaptive-icon.png"
             },
             "package": "com.ridehail.app",
-            "config": {
-                "googleMaps": {
-                    "apiKey": "AIzaSyATqr_uYidFoYdFhpd8Aef_gXXUA148q24"
-                }
-            },
             "permissions": [
                 "android.permission.ACCESS_COARSE_LOCATION",
                 "android.permission.ACCESS_FINE_LOCATION"
@@ -49,11 +44,6 @@
                     "locationAlwaysAndWhenInUsePermission": "RideHail needs location to find drivers and track your ride."
                 }
             ]
-        ],
-        "extra": {
-            "eas": {
-                "projectId": "9f5eca75-937a-4c47-8614-580b62cd1203"
-            }
-        }
+        ]
     }
 }
